@@ -171,7 +171,7 @@ bool MDNSResponder::addServiceTxt(char *name, char *proto, char *key, char *valu
 }
 
 IPAddress MDNSResponder::queryHost(char *host, uint32_t timeout){
-    struct ip4_addr addr;
+    struct esp_ip4_addr addr;
     addr.addr = 0;
 
     esp_err_t err = mdns_query_a(host, timeout,  &addr);

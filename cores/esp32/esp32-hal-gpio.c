@@ -91,7 +91,7 @@ typedef struct {
 static InterruptHandle_t __pinInterruptHandlers[GPIO_PIN_COUNT] = {0,};
 
 #include "driver/rtc_io.h"
-
+#define ESP_REG(addr) *((volatile uint32_t *)(addr))
 extern void IRAM_ATTR __pinMode(uint8_t pin, uint8_t mode)
 {
 
