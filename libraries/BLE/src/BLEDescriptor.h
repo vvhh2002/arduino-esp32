@@ -8,7 +8,7 @@
 #ifndef COMPONENTS_CPP_UTILS_BLEDESCRIPTOR_H_
 #define COMPONENTS_CPP_UTILS_BLEDESCRIPTOR_H_
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 #include <string>
 #include "BLEUUID.h"
 #include "BLECharacteristic.h"

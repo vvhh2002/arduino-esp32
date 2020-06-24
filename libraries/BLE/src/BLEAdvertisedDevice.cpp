@@ -12,7 +12,7 @@
  *      Author: kolban
  */
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 #include <sstream>
 #include "BLEAdvertisedDevice.h"
 #include "BLEUtils.h"

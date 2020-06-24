@@ -8,7 +8,7 @@
 #ifndef COMPONENTS_CPP_UTILS_BLESCAN_H_
 #define COMPONENTS_CPP_UTILS_BLESCAN_H_
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 #include <esp_gap_ble_api.h>
 
 // #include <vector>

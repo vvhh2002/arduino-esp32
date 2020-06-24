@@ -5,7 +5,7 @@
  *      Author: chegewara
  */
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 
 #include "BLEHIDDevice.h"
 #include "BLE2904.h"

@@ -17,7 +17,7 @@
  *
  */
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 #include "BLEAdvertising.h"
 #include <esp_err.h>
 #include "BLEUtils.h"

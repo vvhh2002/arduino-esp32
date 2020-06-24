@@ -8,7 +8,7 @@
 #ifndef COMPONENTS_CPP_UTILS_BLEVALUE_H_
 #define COMPONENTS_CPP_UTILS_BLEVALUE_H_
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 #include <string>
 
 /**

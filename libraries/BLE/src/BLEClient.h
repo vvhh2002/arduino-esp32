@@ -9,7 +9,7 @@
 #define MAIN_BLEDEVICE_H_
 
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 
 #include <esp_gattc_api.h>
 #include <string.h>

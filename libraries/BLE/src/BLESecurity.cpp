@@ -7,7 +7,7 @@
 
 #include "BLESecurity.h"
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 
 BLESecurity::BLESecurity() {
 }

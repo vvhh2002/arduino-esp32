@@ -9,7 +9,7 @@
 #define _BLEHIDDEVICE_H_
 
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 
 #include "BLECharacteristic.h"
 #include "BLEService.h"

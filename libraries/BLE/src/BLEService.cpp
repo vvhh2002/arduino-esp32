@@ -8,7 +8,7 @@
 // A service is identified by a UUID.  A service is also the container for one or more characteristics.
 
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 #include <esp_err.h>
 #include <esp_gatts_api.h>
 

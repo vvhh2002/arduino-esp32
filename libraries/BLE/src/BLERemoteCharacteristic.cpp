@@ -8,7 +8,7 @@
 #include "BLERemoteCharacteristic.h"
 
 #include "sdkconfig.h"
-#if defined(CONFIG_BT_ENABLED)
+#if defined(CONFIG_BT_BLUEDROID_ENABLED)
 
 #include <esp_gattc_api.h>
 #include <esp_err.h>
