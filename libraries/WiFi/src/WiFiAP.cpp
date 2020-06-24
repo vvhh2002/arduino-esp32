@@ -38,7 +38,6 @@ extern "C" {
 #include <esp_event.h>
 #include <lwip/ip_addr.h>
 #include <tcpip_adapter.h>
-#include <tcpip_adapter_types.h>
 #include "dhcpserver/dhcpserver_options.h"
 }
 
